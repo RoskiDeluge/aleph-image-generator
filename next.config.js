@@ -3,6 +3,9 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-}
+  images: {
+    domains: ["aleph-m-2.s3.amazonaws.com"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
