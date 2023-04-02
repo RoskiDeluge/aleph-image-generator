@@ -4,7 +4,10 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ["aleph-m-2.s3.amazonaws.com"],
+    domains: [
+      "aleph-m-2.s3.amazonaws.com",
+      "alephimagegenerato7adffb.blob.core.windows.net",
+    ],
   },
 };
 
