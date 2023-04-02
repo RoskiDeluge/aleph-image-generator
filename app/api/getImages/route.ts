@@ -1,5 +1,5 @@
 export async function GET(request: Request) {
-    const response = await fetch('https://aleph-image-generator.azurewebsites.net/api/getimages', {
+    const response = await fetch(`${process.env.GET_IMAGES}`, {
         cache: 'no-store'
     })
 

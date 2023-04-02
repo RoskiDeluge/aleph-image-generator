@@ -4,7 +4,7 @@ export async function POST(request: Request) {
     const res = await request.json();
     const prompt = res.prompt;
 
-    const response = await fetch('https://aleph-image-generator.azurewebsites.net/api/generateimage', {
+    const response = await fetch(`${process.env.IMG_GENERATE}`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
