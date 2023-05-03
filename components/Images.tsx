@@ -35,7 +35,7 @@ function Images() {
             key={image.name}
             className={`relative cursor-help 
             ${
-              i === 0 && "md:col-span-2 md:row-span-1"
+              i === 0 && "md:col-span-1 md:row-span-1"
             } hover:scale-[103%] transition-transform duration-200 ease-in-out`}
           >
             <div className="absolute flex justify-center items-center w-full h-full bg-white opacity-0 hover:opacity-80 transition-opacity duration-200 z-10">

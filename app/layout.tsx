@@ -1,4 +1,4 @@
-import Header from "@/components/Header";
+// import Header from "@/components/Header";
 import PromptInput from "@/components/PromptInput";
 import "../styles/globals.css";
 
@@ -16,9 +16,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Header />
+        {/* <Header /> */}
 
-        {/* Prompt input */}
         <PromptInput />
         {children}
       </body>

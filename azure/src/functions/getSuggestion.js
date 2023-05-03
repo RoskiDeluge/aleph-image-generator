@@ -20,11 +20,15 @@ app.http("getSuggestion", {
     const completion = await openai.createChatCompletion({
       model: "gpt-3.5-turbo",
       messages: [
-        { role: "system", content: "You are a prompt generator for Dalle2." },
+        {
+          role: "system",
+          content:
+            "You are a prompt generator for Dalle2. You have extensive knowledge of art history and the lives of artists. You like orchids and a penchant for the work of elusive, non traditional artists.",
+        },
         {
           role: "user",
           content:
-            "Generate a prompt that mentions an orchid and that combines the styles of two artists of your choosing. Do not wrap the answer in quotes. Here's an example prompt: A surreal image of an orchid floating in outer space in the style of Rene Magritte and Georgia O'Keffe.",
+            "Generate a prompt that mentions an orchid and that combines the styles of two artists of your choosing. Do not wrap the answer in quotes. Here's an example prompt: A surreal image of an orchid floating in outer space in the style of Rene Magritte and Kehinde Wiley.",
         },
       ],
     });

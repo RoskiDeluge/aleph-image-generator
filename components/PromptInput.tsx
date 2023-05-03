@@ -2,7 +2,7 @@
 
 import fetchImages from "@/lib/fetchImages";
 import fetchSuggestion from "../lib/fetchSuggestion";
-import { FormEvent, useState } from "react";
+import { FormEvent, useState, useEffect } from "react";
 import useSWR from "swr";
 
 function PromptInput() {
@@ -16,6 +16,12 @@ function PromptInput() {
   } = useSWR("/api/suggestion", fetchSuggestion, {
     revalidateOnFocus: false,
   });
+
+  useEffect(() => {
+    console.log("Suggestion:", suggestion);
+    console.log("isLoading:", isLoading);
+    console.log("isValidating:", isValidating);
+  }, [suggestion, isLoading, isValidating]);
 
   const { mutate: updateImages } = useSWR("/api/getImages", fetchImages, {
     revalidateOnFocus: false,
