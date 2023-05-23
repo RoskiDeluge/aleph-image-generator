@@ -3,7 +3,7 @@ import PromptInput from "@/components/PromptInput";
 import "../styles/globals.css";
 
 export const metadata = {
-  title: "Aleph Image Generator",
+  title: "Orchid One",
   description:
     "Generate orchid images that combine the styles of notable artists, or generate new images based on your own prompts.",
 };

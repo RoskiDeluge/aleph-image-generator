@@ -2,7 +2,7 @@
 
 import fetchImages from "@/lib/fetchImages";
 import fetchSuggestion from "../lib/fetchSuggestion";
-import { FormEvent, useState, useEffect } from "react";
+import { FormEvent, useState } from "react";
 import useSWR from "swr";
 
 function PromptInput() {
@@ -17,23 +17,15 @@ function PromptInput() {
     revalidateOnFocus: false,
   });
 
-  useEffect(() => {
-    console.log("Suggestion:", suggestion);
-    console.log("isLoading:", isLoading);
-    console.log("isValidating:", isValidating);
-  }, [suggestion, isLoading, isValidating]);
-
   const { mutate: updateImages } = useSWR("/api/getImages", fetchImages, {
     revalidateOnFocus: false,
   });
-
-  // console.log(suggestion);
 
   const submitPrompt = async (useSuggestion?: boolean) => {
     const inputPrompt = input;
     setInput("");
 
-    console.log(inputPrompt);
+    // console.log(inputPrompt);
 
     // p is the prompt to send to API
     const p = useSuggestion ? suggestion : inputPrompt;
@@ -61,28 +53,6 @@ function PromptInput() {
 
     updateImages();
   };
-
-  // const submitPrompt = async (useSuggestion?: boolean) => {
-  //   const inputPrompt = input;
-  //   setInput("");
-
-  //   console.log(inputPrompt);
-
-  //   // p is the prompt to send to API
-  //   const p = useSuggestion ? suggestion : inputPrompt;
-
-  //   const res = await fetch("/api/generateImage", {
-  //     method: "POST",
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //     },
-  //     body: JSON.stringify({
-  //       prompt: p,
-  //     }),
-  //   });
-
-  //   const data = await res.json();
-  // };
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -117,7 +87,7 @@ function PromptInput() {
           } font-bold`}
           disabled={!input}
         >
-          Generate
+          Generate Your Own
         </button>
         <button
           className="p-4 bg-violet-400 text-white transition-colors duration-200 font-bold disabled:text-gray-300 disabled:cursor-not-allowed disabled:bg-gray-400"
