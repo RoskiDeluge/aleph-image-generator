@@ -16,4 +16,4 @@ To Do:
 - Add vector db for prompt embeddings
 - (When available) add image embeddings to the vector db so the system develops a visual memory of previous images
 - Find a way to combine these embeddings so the prompt embeddings and image embeddings can talk to each other
-- 
+
