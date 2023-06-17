@@ -1,3 +1,3 @@
-# Aleph Image Generator
+# imginate repo
 
-Dalle2, ChatGPT, Nextjs, Microsoft Azure
+Dalle2, gpt-3.5-turbo, Nextjs, Microsoft Azure
