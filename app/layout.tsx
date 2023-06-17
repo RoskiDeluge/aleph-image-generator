@@ -1,11 +1,10 @@
-// import Header from "@/components/Header";
+import Header from "@/components/Header";
 import PromptInput from "@/components/PromptInput";
 import "../styles/globals.css";
 
 export const metadata = {
-  title: "Orchid One",
-  description:
-    "Generate orchid images that combine the styles of notable artists, or generate new images based on your own prompts.",
+  title: "imginate",
+  description: "Generate images with AI that can remember and are remembered.",
 };
 
 export default function RootLayout({
@@ -16,8 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {/* <Header /> */}
-
+        <Header />
         <PromptInput />
         {children}
       </body>

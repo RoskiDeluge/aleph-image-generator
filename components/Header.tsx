@@ -13,10 +13,7 @@ function Header() {
           width={30}
         />
         <div>
-          <h1 className="font-bold">Aleph Image Generator</h1>
-          <h2 className="text-xs">
-            Powered by Dalle2, ChatGPT & Microsoft Azure
-          </h2>
+          <h1 className="font-bold">imginate</h1>
         </div>
       </div>
       {/* Right */}
@@ -25,7 +22,7 @@ function Header() {
           About
         </Link>
         <Link href="/" className="px-2 font-light text-right">
-          Github Repo
+          Sign In | Sign Up
         </Link>
       </div>
     </header>
