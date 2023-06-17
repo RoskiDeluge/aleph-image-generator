@@ -2,6 +2,8 @@
 
 A camera for the AI era.
 
+Create images with AI that can remember and are remembered.
+
 Images as primitive data source.
 
 Usage:
