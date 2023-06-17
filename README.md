@@ -4,8 +4,6 @@ A camera for the AI era.
 
 Images as primitive data source.
 
-Dalle2, gpt-3.5-turbo, Nextjs, Microsoft Azure
-
 Usage:
 - Over time the system learns from previous prompts and makes suggestions that match the user's preferences
 - The app can handle traditional interactions via a Web UI and programmatic calls to its API
