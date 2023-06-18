@@ -4,11 +4,13 @@ A camera for the AI era.
 
 Create images with AI that can remember and are remembered.
 
-Images as primitive data source.
+The two data primitives of the app are moods and modes. Moods are similar to categories in that they are collections of related modes. 
+Modes are composed of prompts and images. 
 
 Usage:
-- Over time the system learns from previous prompts and makes suggestions that match the user's preferences
-- The app can handle traditional interactions via a Web UI and programmatic calls to its API
+- A user creates a mode by generating a prompt which in turn generates an image
+- Collections of modes are categorized into moods over time 
+- Over time the system learns from the modes and makes prompt suggestions that match the user's preferences
 
 To Do:
 
@@ -16,4 +18,5 @@ To Do:
 - Add vector db for prompt embeddings
 - (When available) add image embeddings to the vector db so the system develops a visual memory of previous images
 - Find a way to combine these embeddings so the prompt embeddings and image embeddings can talk to each other
+- Build API for programmatic access
 
