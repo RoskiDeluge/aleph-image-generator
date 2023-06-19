@@ -13,7 +13,11 @@ Usage:
 - Over time the system learns from the modes and makes prompt suggestions that match the user's preferences
 
 To Do:
+- Authentication. Add tables to db: users, images, prompts
+- Add payments / credit purchase (Stripe, or another method)
+- Add social sharing feature
 
+Future features:
 - Add context array and a messages table in an Azure db to retain context history / memory of previous prompts
 - Add vector db for prompt embeddings
 - (When available) add image embeddings to the vector db so the system develops a visual memory of previous images
