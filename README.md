@@ -14,7 +14,7 @@ Usage:
 
 To Do:
 - Authentication. Add tables to db: users, images, prompts
-- Add subscription plans: Images per day: 1 (free), 10 (4.99/mo), 100 (9.99/mo)
+- Add subscription plans (Images per day: 1 (free), 10 (4.99/mo), 100 (9.99/mo))
 - Add social sharing feature
 
 Future features:
