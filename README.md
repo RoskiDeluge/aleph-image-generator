@@ -14,10 +14,12 @@ Usage:
 
 To Do:
 - Authentication. Add tables to db: users, images, prompts
+- Better loading state notifications in UI
 - Add subscription plans (Images per day: 1 (free), 10 (4.99/mo), 100 (9.99/mo))
 - Add social sharing feature
 
 Future features:
+- Refactor to use Vercel's AI SDK
 - Add context array and a messages table in an Azure db to retain context history / memory of previous prompts
 - Add vector db for prompt embeddings
 - (When available) add image embeddings to the vector db so the system develops a visual memory of previous images
