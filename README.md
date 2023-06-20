@@ -4,7 +4,7 @@ A camera for the AI era.
 
 Create images with AI that can remember and are remembered.
 
-The two data primitives of the app are moods and modes. Moods are similar to categories in that they are collections of related modes. 
+The two primitives of the app are moods and modes. Moods are similar to categories in that they are collections of related modes. 
 A mode is a combination of a prompt and an image.
 
 Usage:
