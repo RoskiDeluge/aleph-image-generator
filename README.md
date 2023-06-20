@@ -22,7 +22,6 @@ To Do:
 Future features:
 - Improve UI design (Precedent)
 - Refactor to use Vercel's AI SDK
-- Add context array and a messages table in an Azure db to retain context history / memory of previous prompts
 - Add vector db for prompt embeddings
 - (When available) add image embeddings to the vector db so the system develops a visual memory of previous images
 - Find a way to combine these embeddings so the prompt embeddings and image embeddings can talk to each other
