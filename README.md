@@ -10,7 +10,7 @@ A mode is a combination of a prompt and an image.
 Usage:
 - A user creates a mode by generating a prompt which in turn generates an image
 - Collections of modes are categorized into moods. 
-- Over time the system learns from the moods and makes prompt suggestions that match the user's preferences as capture in their moods.
+- Over time the system learns from the moods and makes prompt suggestions that match the user's preferences as captured in their moods.
 
 To Do:
 - Authentication (NextAuth)
