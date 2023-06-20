@@ -1,4 +1,4 @@
-# imginate repo
+# imginate
 
 A camera for the AI era.
 
