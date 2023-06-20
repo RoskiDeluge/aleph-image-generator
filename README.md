@@ -13,7 +13,8 @@ Usage:
 - Over time the system learns from the modes and makes prompt suggestions that match the user's preferences
 
 To Do:
-- Authentication. Add tables to db: users, images, prompts
+- Authentication (NextAuth)
+- Persistence: add tables in db for users, images, prompts
 - Better loading state notifications in UI
 - Add subscription plans (Images per day: 1 (free), 10 (4.99/mo), 100 (9.99/mo))
 - Add social sharing feature
