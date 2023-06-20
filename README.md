@@ -22,7 +22,7 @@ To Do:
 Future features:
 - Improve UI design (Precedent)
 - Refactor to use Vercel's AI SDK
-- Add vector db for prompt embeddings
+- Add vector db to upsert prompt embeddings
 - (When available) add image embeddings to the vector db so the system develops a visual memory of previous images
 - Find a way to combine these embeddings so the prompt embeddings and image embeddings can talk to each other
 - Build API for programmatic access
