@@ -20,6 +20,7 @@ To Do:
 - Add social sharing feature
 
 Future features:
+- Improve UI (Precedent)
 - Refactor to use Vercel's AI SDK
 - Add context array and a messages table in an Azure db to retain context history / memory of previous prompts
 - Add vector db for prompt embeddings
