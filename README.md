@@ -16,7 +16,7 @@ To Do:
 - Authentication (NextAuth)
 - Persistence: add tables in db for users, images, prompts
 - Better loading state notifications in UI
-- Add subscription plans (Images per day: 1 (free), 10 (4.99/mo), 100 (9.99/mo))
+- Add subscription tiers 
 - Add social sharing feature
 
 Future features:
