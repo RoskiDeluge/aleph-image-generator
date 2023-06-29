@@ -20,10 +20,7 @@ To Do:
 - Add social sharing feature
 
 Future features:
-- Improve UI design (Precedent)
-- Refactor to use Vercel's AI SDK
-- Add vector db to upsert prompt embeddings
-- (When available) add image embeddings to the vector db so the system develops a visual memory of previous images
-- Find a way to combine these embeddings so the prompt embeddings and image embeddings can talk to each other
+- Improve UI design (Precedent, shadcn/ui)
+- Add multi-modal vector db to upsert mode embeddings
 - Build API for programmatic access
 
